@@ -1,0 +1,206 @@
+:root{
+--principal: #ffff;
+--secundario: #000;
+
+
+}
+
+
+
+.conteiner{
+
+
+
+
+text-align: center;
+background-color: #000;
+
+}
+
+
+body{
+
+font-family: 'Carter One', cursive;
+color: aliceblue;
+background-color: #000;
+
+}
+
+span{
+
+font-size: 30px;
+font-family: 'Titan One', cursive;
+   
+}
+
+h1{
+
+font-family: 'Titan One', cursive;
+border: #000;
+text-align: center;
+font-size: 45px;
+}
+
+h2{
+
+
+font-size: 2rem;
+   
+text-align: center;
+   
+}
+
+h2:hover{
+
+color: greenyellow;
+}
+
+h3{
+
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+   padding-top: 3rem;
+   color: white
+   
+}
+
+h3:hover{
+
+color:greenyellow
+}
+
+
+.imagen{
+
+background-image: url("call\ of\ duty.png");
+
+}
+
+.imagenes{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-top: 3rem;
+
+
+ }
+
+ p{
+
+    font-family: 'Black Han Sans', sans-serif;
+    margin-top: 4rem;
+    color: gray;
+ }
+
+ header{
+padding-top: 2rem;
+
+ }
+
+ .trailer{
+
+    margin-top: 10rem;
+    font-size: 2.rem;
+    font-family: 'Rubik Mono One', sans-serif;
+
+    color:white;
+ }
+
+
+ .trailer:hover{
+
+color: greenyellow;
+
+ }
+
+footer{
+
+    text-align: center;
+    font-size:13px ;
+    color: gray;
+}
+
+@media screen and (max-width:1380px){
+
+    .imagenes{
+
+        display: block;
+    }
+}
+
+.cabeza{
+    margin-bottom: 3rem;
+
+width: 100%;
+background-color: gray;
+font-size: 18px;
+font-family: 'Rubik Mono One', sans-serif;
+display: flex;
+justify-content: space-around;
+   
+}
+
+.cabeza a{
+padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: greenyellow;
+}
+@media screen and (max-width:870px){
+
+    .cabeza{
+        width: 100%;
+
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width:730px){
+
+.cabeza{
+ width: 100%;
+    
+}
+
+
+}
+
+@media screen and (max-width:617px){
+
+    .cabeza{
+     width: 100%;
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:276px){
+
+    .cabeza{
+        width: 100%;
+display: block;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:270px){
+
+    .cabeza{
+        width: 60%;
+display: block ;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:238px){
+
+  .cabeza{
+    width:100% ;
+    font-size: 8px;
+  }
+}
