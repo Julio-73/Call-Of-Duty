@@ -1,6 +1,6 @@
 :root{
 --principal: #ffff;
---secundario: #000;
+--secundario: #272323;
 
 
 }
@@ -22,7 +22,7 @@ body{
 
 font-family: 'Carter One', cursive;
 color: aliceblue;
-background-color: #000;
+background-color: #181515;
 
 }
 
